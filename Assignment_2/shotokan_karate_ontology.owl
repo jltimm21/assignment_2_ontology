@@ -1,0 +1,1076 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.shotokankarate.com/ontologies/karate.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.shotokankarate.com/ontologies/karate.owl">
+    <Prefix name="" IRI="http://www.shotokankarate.com/ontologies/karate.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A martial arts ontology that describes shotokan karate techniques based on their defensive and offensive uses.</Literal>
+    </Annotation>
+    <Declaration>
+        <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000047"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000067"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000039"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000083"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000071"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000043"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000087"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000063"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000053"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000068"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000088"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000048"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000072"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000060"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000080"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000076"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000084"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000056"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000069"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000049"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000037"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000081"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000065"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000041"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000085"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000073"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000055"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000058"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000046"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000078"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000082"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000070"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000042"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000062"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000039"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000040"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000041"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000042"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000043"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000043"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000053"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000044"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000043"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000054"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000043"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000054"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000043"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000054"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000044"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000044"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000054"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000045"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000053"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000049"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000054"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000054"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000056"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000046"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000053"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000047"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000056"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000056"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000056"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000047"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000047"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000053"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000045"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000047"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000054"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000047"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000056"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000047"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000056"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000048"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000048"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000053"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000046"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000048"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000056"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000048"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000056"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000048"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000056"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000049"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000049"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000053"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000043"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000049"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000054"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000049"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000054"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000049"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000054"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000055"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000054"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000055"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.karate.owl/ontologies/karate_0000056"/>
+            <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000057"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000058"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000059"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000058"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000060"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000058"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000061"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000062"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000063"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000064"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000065"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000075"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000066"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000075"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000067"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000068"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000069"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000070"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000071"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000072"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000073"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000074"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000075"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000076"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000077"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000078"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000079"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000080"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000081"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000082"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000083"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000084"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000085"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000086"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000087"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000088"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000042"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000038"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000042"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000042"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000051"/>
+        <Class IRI="http://www.karate.owl/ontologies/karate_0000052"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000037</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Shotokan training is usually divided into three parts: kihon (basics), kata (forms or patterns of moves), and kumite (sparring). Techniques in kihon and kata are characterised by deep, long stances that provide stability, enable powerful movements, and strengthen the legs. Shotokan is regarded as a dynamic martial art as it develops anaerobic, powerful techniques as well as developing speed. Initially strength and power are demonstrated instead of slower, more flowing motions. (Taken from Wikipedia)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000037</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">All these terms and definitions are taken from my experience at my martial arts club. Even within shotokan there is a great deal of varriation in how katas, kihons, and other skills are taught.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000037</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Shotokan Karate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000038</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Basic stances, strikes, kicks, and blocks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000038</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kihon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000039</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Defensive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000040</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000040</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Offensive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000041</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mixed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000042</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Colour of belt signifies mastery level of practitioner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000042</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Belt ranks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000043</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Second rank. Three Katas are known and some basic Kihon.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000043</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Yellow belt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000044</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Starting rank for beginners. Learning Katas and Kihon.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000044</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">White belt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000045</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fourth rank. More katas are added and kihons are now strung together to form basic attack patterns.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000045</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Green belt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000046</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sixth rank. Students are allowed to judge both sparring matches and katas with Black belt supervision. More katas are added and the kihons are practices against multipul attackers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000046</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Brown belt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000047</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fifth rank. Students are now allowed to help judge sparring matches at tournaments under supervision of a Black belt. More katas are added and the kihons are now complex paterns of attack.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000047</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Blue belt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000048</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Seventh rank. There are ten more ranks of Black belt starting at first Dan and going to tenth Dan. However, Tenth Dan is usually reserved as a honorary title given to master practitioners after their death. Black belt katas are learned and all the kihons are known.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000048</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Black belt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000049</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Third rank. More katas are known and basic movments are being advanced to more complex combinations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000049</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Orange belt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000050</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000051</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Patterns of movement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000051</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is not a complete list of katas. These are just the katas that I know.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000051</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kata</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000052</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Applied kihons and katas used to defend and attack and opponent in a controlled way</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000052</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sparring in my club was usually done with light contact only. The Black belts were the only ones who were allowed to do full contact sparring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000052</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sparring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000053</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BuildsOn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000054</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Has</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000055</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">LearnedFrom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000056</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HasAdvanced</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000057</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Blocks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000058</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Offensive kihons used primarily to attack an opponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000058</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Strikes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000059</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A strike performed with the arm and hand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000059</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Punches</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000060</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A strike performed with the leg and foot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000060</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kicks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000061</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">White and Yellow belt kata with very basic kihons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000061</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Taikyoku One</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000062</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Yellow belt kata with very basic kihons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000062</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Taikyoku Two</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000063</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Yellow belt kata with very basic kihons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000063</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Taikyoku Three</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000064</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Yellow belt kata with basic kihons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000064</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Heian One</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000065</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Orange belt kata with midlevel kihons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000065</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Heian Two</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000066</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Orange and Green belt kata with midlevel kihons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000066</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Heian Three</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000067</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Blue and Brown belt kata with advanced kihons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000067</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Heian Four</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000068</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Black belt kata with complex kihons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000068</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Heian Five</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000069</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Blue belt kata with midlevel defensive kihons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000069</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tekki One</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000070</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A defensive Black belt kata</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000070</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bassai Dai</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000071</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A defensive Black belt kata</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000071</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bassai Sho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000072</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An offensive Black belt kata</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000072</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kanku Dai</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000073</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An offensive Black belt kata</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000073</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kanku Sho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000074</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Blue, Brown, and Black belts can learn these</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000074</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Advanced</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000075</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Green and Orange belts can learn these</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000075</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Midlevel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000076</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Yellow and White belts can learn these</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000076</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Beginner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000077</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Use fore arm above head</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000077</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Rising block</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000078</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Use fore arm accross center of body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000078</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Center block</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000079</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Use fore arm to protect upper leg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000079</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Low block</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000080</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Stances</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000081</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Create a soild center to block from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000081</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Horse stance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000082</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">create ability to move away from attacks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000082</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Back stance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000083</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Stances</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000084</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">weight is only on one leg keeping the other free to do attacks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000084</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cat stance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000085</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Long stance that allows great forward movement speed for powerful attacks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000085</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Front stance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000086</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A precise kata that focuses on hitting an opponents weak points</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000086</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Unsu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000087</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Open handed sparring is done without weapons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000087</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Open hand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.karate.owl/ontologies/karate_0000050"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000088</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">foam replicas of traditional weapons are used for weapon sparring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.karate.owl/ontologies/karate_0000088</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Weapon</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
